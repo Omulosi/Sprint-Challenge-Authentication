@@ -40,11 +40,21 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 - [ ] What is the purpose of using _sessions_?
 
+    Http is stateless. Sessions provide a way to maintain state across requests and thus
+    'remember' the client currently interacting with the server, their preferences etc.
+
 - [ ] What does bcrypt do to help us store passwords in a secure manner.
+
+    It irreversibly hashes passwords into a form that is hard to decipher.
 
 - [ ] What does bcrypt do to slow down attackers?
 
+    it used a key derivation algorithm that makes the process
+    of trying to crack passwords that much slower. 
+
 - [ ] What are the three parts of the JSON Web Token?
+
+    payload, secret, options
 
 ## Minimum Viable Product
 
